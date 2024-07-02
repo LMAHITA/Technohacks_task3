@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+/* Existing CSS remains unchanged */
+
+.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem 0;
+    display: flex; /* Updated to flex layout */
+    justify-content: space-between ; /* Aligns items to start and end */
+    align-items: center; /* Aligns items vertically */
+}
+.contact {
+    background-color: #f9f9f9;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .contact .details {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .contact form {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+  
+  .contact form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  .contact form input[type="text"],
+  .contact form input[type="email"],
+  .contact form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .contact form textarea {
+    resize: vertical;
+  }
+.contact form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .contact form input[type="submit"]:hover {
+    background-color: #45a049;
+  }
